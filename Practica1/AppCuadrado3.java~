@@ -1,0 +1,24 @@
+
+public class AppCuadrado3 {
+
+	public static void main(String[] args) {
+
+		Cuadrado cuadrado = new Cuadrado(1,1,150);
+
+		Dibujo dibujo = new Dibujo();
+
+		dibujo.pintar(cuadrado);
+
+		Util.wait(1);
+
+		Cuadrado cuadrado2 = new Cuadrado(150, 200, 150);
+		dibujo.pintar2(cuadrado2);
+
+		Util.wait(1);
+
+		Cuadrado cuadrado3 = new Cuadrado(300, 150, 150);
+		dibujo.pintar2(cuadrado3);
+
+	}
+
+}
