@@ -1,5 +1,5 @@
 //Jorge Huete
-//Practica 1
+//Practica 2
 
 public class AppDibujo01 {
 
