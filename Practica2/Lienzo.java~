@@ -1,5 +1,6 @@
 import java.awt.*;
 import javax.swing.JFrame;
+//Modificado por Jorge Huete
 
 public class Lienzo extends Canvas
 {
@@ -7,7 +8,7 @@ public class Lienzo extends Canvas
 
 	public void pintar(Cuadrado[] cuadrados)
 	{
-		this.cuadrados = new Cuadrados[cuadrados.length];
+		this.cuadrados = new Cuadrado[cuadrados.length];
 		this.cuadrados = cuadrados;
 	}
 
